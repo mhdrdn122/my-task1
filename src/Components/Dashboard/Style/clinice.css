@@ -1,0 +1,94 @@
+
+.clinic-container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #0073b1; 
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .clinic-info div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  .clinic-info strong {
+    font-weight: bold;
+    color: #0073b1;
+  }
+  
+  button {
+    background-color: #0073b1;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005582;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  input:focus {
+    border-color: #0073b1;
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .clinic-container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .clinic-info div {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .clinic-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .clinic-info div {
+      font-size: 13px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  

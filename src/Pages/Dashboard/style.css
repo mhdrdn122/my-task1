@@ -1,0 +1,7 @@
+.dashboard-bar-content{
+    display: flex;
+}
+.dashboard-content{
+padding: 20px;
+width: 100%;
+}
